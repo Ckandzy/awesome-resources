@@ -1,20 +1,18 @@
-开发资源总结 (持续整理中)
+开发实战资源整合 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/lyfyeaj/awesome-resources)
 =====================
 
 
 
-> *就像开发一样, 这篇文档如果没有人关心和维护, 里面的内容就会变得老旧, 过时而不再具有参考价值. 所以, 我希望所有看到并喜欢这篇文档的人都来一起维护它. 放心大胆的提交 Pull Request 和 Issue 吧!!*
-
-这是对自己这几年开发的一个总结，各种项目、资源、书籍、博客等
+> *如同开源项目一样, 这篇文档如果没有人关心和维护, 里面的内容就会过时, 从而不再具有参考价值. 所以, 希望所有喜欢的人都能够一起来维护. 放心大胆的纠错和增加新的内容吧!*
 
 喜欢么？或者对您有用？那就 Star 一下吧 ^_^
 
 ## 贡献方式
 
 + Fork 这个项目
-+ 不要直接在 `Readme.md` 中直接添加内容
++ 请不要直接在 `README.md` 中直接添加内容
 + 所有的文档都放在 `docs` 中, 请根据内容找到相应的文件并添加
-+ 如果是 Mac 或者 Linux 用户, 请在提交前运行 ./build.sh 来自动生成 `Readme.md` 文件
++ 如果是 Mac 或者 Linux 用户, 请在提交前运行 ./build.sh 来自动生成 `README.md` 文件
 + 保存并提交
 + 新建一个 Pull Request
 
@@ -50,8 +48,8 @@
 - [云计算](#%E4%BA%91%E8%AE%A1%E7%AE%97)
     - [Docker](#docker)
     - [OS](#os)
-- [开源产品(论坛、在线教育、项目管理等)](#%E5%BC%80%E6%BA%90%E4%BA%A7%E5%93%81%E8%AE%BA%E5%9D%9B%E3%80%81%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2%E3%80%81%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E7%AD%89)
-- [代码规范&设计模式](#%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83&%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
+- [开源产品(论坛、在线教育、项目管理等)](#%E5%BC%80%E6%BA%90%E4%BA%A7%E5%93%81%E8%AE%BA%E5%9D%9B%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E7%AD%89)
+- [代码规范&设计模式](#%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
     - [Ruby](#ruby-1)
         - [Rails](#rails)
     - [Javascript](#javascript-1)
@@ -71,6 +69,7 @@
     - [Awesome 系列](#awesome-%E7%B3%BB%E5%88%97)
     - [前端](#%E5%89%8D%E7%AB%AF)
         - [Web](#web)
+        - [React](#react-1)
         - [IOS](#ios-1)
         - [Android](#android-2)
     - [后端](#%E5%90%8E%E7%AB%AF)
@@ -78,8 +77,9 @@
         - [Ruby](#ruby-2)
         - [PHP](#php)
         - [Go](#go-1)
+        - [Bash](#bash-1)
         - [接口](#%E6%8E%A5%E5%8F%A3)
-    - [算法 & 论文](#%E7%AE%97%E6%B3%95-&-%E8%AE%BA%E6%96%87)
+    - [算法 & 论文](#%E7%AE%97%E6%B3%95--%E8%AE%BA%E6%96%87)
     - [其他](#%E5%85%B6%E4%BB%96)
 - [科学上网](#%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91)
 - [Git 相关](#git-%E7%9B%B8%E5%85%B3)
@@ -157,6 +157,8 @@
 + [switchery](https://github.com/abpetkov/switchery): IOS 7 上 Switch 的 JS 实现, 支持 IE8 及以上浏览器
 + [trix](https://github.com/basecamp/trix): Basecamp 公司出品的富文本编辑器，简洁小巧
 + [greensock](http://greensock.com/): greensock是一個非常強大的動畫庫，網站內也有很完整的API文檔和examples
++ [Moment.js](https://github.com/moment/moment/) Moment.js 是一个功能丰富的 JavaScript 日期处理类库，用于解析、检验、操作、以及显示日期
++ [webpack](https://github.com/webpack/webpack) webpack 是一个 JavaScript 模块打包工具，功能强悍、插件丰富
 
 ###### Polyfills
 
@@ -242,6 +244,9 @@
 + [touchstonejs](https://github.com/JedWatson/touchstonejs): 基于 React 的手机应用前端框架
 + [essential-react](https://github.com/pheuter/essential-react): 基于 React, ES6, React-Router的一个应用脚手架
 + [react-router](https://github.com/rackt/react-router): React 路由解决方案
++ [react-redux](https://github.com/reactjs/react-redux): React redux 插件, 提供 React 的 Redux 支持
++ [redux](https://github.com/reactjs/redux): Javascript的可预测状态容器, 主要用于处理数据流向和管理状态
++ [recharts](https://github.com/recharts/recharts): 基于 React 和 D3 实现的图表工具
 
 #### CSS
 
@@ -347,12 +352,15 @@
 
 + [django](https://github.com/django/django): 一个全栈式的 web 框架, 类似于 Rails
 + [django-rest-framework](https://github.com/tomchristie/django-rest-framework): django 的 一个  Rest API 框架
++ [flask](https://github.com/pallets/flask): 一个轻量级的 web 框架
 + [wifiphisher](https://github.com/sophron/wifiphisher): WIFI 中间人钓鱼攻击工具，获取用户名密码
 + [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit): Python 的交互命令行工具，提供代码补全、高亮等
 + [redis-rdb-tools](https://github.com/sripathikrishnan/redis-rdb-tools): Redis 的 dump.rdb 文件解析器，用于分析内存使用、导出 JSON 以及 比较不同 rdb 文件差异
 + [supervisor](https://github.com/Supervisor/supervisor): 类UNIX下用于控制进程的一个开源库，通过配置可以监控、自动重启各种服务
 + [pyenv](https://github.com/yyuu/pyenv): Python 版本管理工具，类似于 RVM
++ [scrapy](https://github.com/scrapy/scrapy): 一个全能型的爬虫框架
 + [pyspider](https://github.com/binux/pyspider): 一个爬虫系统
+
 
 #### Node.js
 
@@ -438,6 +446,8 @@
 + [shelljs](https://github.com/arturadib/shelljs): 各种 Shell 命令的 Node 实现
 + [Meteor](https://github.com/meteor/meteor): 一个基于 Node.js 的平台，用于开发实时网页和移动应用
 + [Koa](https://github.com/koajs/koa): Node.js web 框架，Express 原班人马打造，推崇极简，通过 generator 实现异步控制
++ [Power Assert](https://github.com/power-assert-js/power-assert): 报错信息极其详细的 assert 库
++ [Trevor](https://github.com/vadimdemedes/trevor): 本地的简版 Travis 集成集成测试环境，需要Docker支持
 
 ###### Express
 
@@ -456,6 +466,7 @@
 #### Java
 
 + [elasticsearch](https://github.com/elasticsearch/elasticsearch): 开源的分布式搜索引擎，社区活跃，支持强大
++ [fastjson](https://github.com/alibaba/fastjson): 阿里开源的一款高效的 JSON 库
 
 #### C/C++
 
@@ -534,7 +545,7 @@
 + [VKVideoPlayer](https://github.com/viki-org/VKVideoPlayer): 方便高度自定义视频播放器的库
 + [MagicalRecord](https://github.com/magicalpanda/MagicalRecord): 基于 Core Data 之上的 ORM, 是 Active Record 的 IOS 版实现, 可以精简 Core Data 代码
 + [SQLite.swift](https://github.com/stephencelis/SQLite.swift): SQLite3 的 Swift 层接口实现
-+ 
++ [panelkit](https://github.com/louisdh/panelkit): iOS 面板组件，可以用于创建非常灵活的面板
 
 
 ## Android
@@ -698,8 +709,7 @@
 
 #### Awesome 系列
 
-+ [awesome](https://github.com/sindresorhus/awesome): awesome 汇总
-+ [iOS 学习资料整理](https://github.com/Aufree/trip-to-iOS): IOS 的各种学习资料整理，初学者必备
++ [awesome](https://github.com/sindresorhus/awesome): awesome系列祖师爷，资源汇总的汇总 😄
 + [awesome-android-libraries](https://github.com/wasabeef/awesome-android-libraries): Android 各种开源库的一个汇总
 + [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui): Android 各种开源UI/UX库的一个汇总
 + [awesome-courses](https://github.com/prakhar1989/awesome-courses): 关于计算机科学的各种大学教学课程
@@ -708,9 +718,7 @@
 + [awesome-cpp](https://github.com/fffaraz/awesome-cpp): C++ 的资源集合
 + [awesome-elixir](https://github.com/h4cc/awesome-elixir): Elixir 资源集合
 + [awesome-emacs](https://github.com/emacs-tw/awesome-emacs): Emacs 资源整合
-+ [frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks): 前端开发资源的集合, 内容极多
 + [awesome-apple](https://github.com/joeljfischer/awesome-apple): 关于苹果开发的插件/库/文章等资源
-+ [frontend-stuff](https://github.com/moklick/frontend-stuff): 前端相关的各种资源, JS 内容居多
 + [awesome-swift)](https://github.com/matteocrippa/awesome-swift): Swift 资源整合
 + [awesome-react](https://github.com/enaqx/awesome-react): React 资源整合
 + [awesome-wpo](https://github.com/davidsonfellipe/awesome-wpo): 一系列前端性能优化集合
@@ -720,11 +728,31 @@
 + [awesome-python](https://github.com/vinta/awesome-python) : Python 资源整合
 + [awesome-autoit](https://github.com/J2TeaM/awesome-AutoIt) : 第三方定制开源软件合集
 + [awesome-books](https://github.com/ruby-vietnam/awesome-books): 一些很不错的开发书籍
++ [awesome-npm](https://github.com/sindresorhus/awesome-npm.git): Npm 相关资源整合
++ [awesome-sysadmin-cn](https://github.com/jobbole/awesome-sysadmin-cn): 伯乐出品的系统管理员资源大全
++ [awesome-ios-cn](https://github.com/jobbole/awesome-ios-cn): 伯乐出品的 iOS 资源大全
++ [awesome-java-cn](https://github.com/jobbole/awesome-java-cn): 伯乐出品的 Java 资源大全
++ [awesome-python-cn](https://github.com/jobbole/awesome-python-cn): 伯乐出品的 Python 资源大全
++ [awesome-c-cn](https://github.com/jobbole/awesome-c-cn): 伯乐出品的 C 资源大全
++ [awesome-cpp-cn](https://github.com/jobbole/awesome-cpp-cn): 伯乐出品的 C++ 资源大全
++ [awesome-mysql-cn](https://github.com/jobbole/awesome-mysql-cn): 伯乐出品的 MySQL 资源大全
++ [awesome-machine-learning-cn](https://github.com/jobbole/awesome-machine-learning-cn): 伯乐出品的机器学习资源大全
++ [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning): 机器学习资源整合
++ [awesome-javascript-cn](https://github.com/jobbole/awesome-javascript-cn): 伯乐出品的 JavaScript 资源大全
++ [awesome-css-cn](https://github.com/jobbole/awesome-css-cn): 伯乐出品的 CSS 资源大全
++ [awesome-php-cn](https://github.com/jobbole/awesome-php-cn): 伯乐出品的 PHP 资源大全
++ [awesome-graphql](https://github.com/chentsulin/awesome-graphql): Graphql 资源大全
++ [awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood): 谬误大全, 懂得谬误, 才能更接近真理~
++ [awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers): 深度学习论文大全
++ [awesome-webpack-cn](https://github.com/webpack-china/awesome-webpack-cn): webpack优秀中文文章
++ [awesome-blockchain](https://github.com/coderplex/awesome-blockchain): 区块链资源整合
++ [awesome-mac](https://github.com/jaywcjlove/awesome-mac): Mac 资源整合
 
 #### 前端
 
 ###### Web
 + [Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions): 各种前端面试问题
++ [Front-End-Develop-Guide](https://github.com/icepy/Front-End-Develop-Guide): 汇集了前端开发的主流学习资源
 + [what-happens-when](https://github.com/alex/what-happens-when): 一篇文章，详细解释了从在浏览器中输入网址之后发生的一切
 + [backbone-fundamentals](https://github.com/addyosmani/backbone-fundamentals): 关于 Backbone 的一本书，初学和高级都适用
 + [http2-spec](https://github.com/http2/http2-spec): HTTP 2 草案
@@ -742,11 +770,20 @@
 + [AngularJS-Learning](https://github.com/jmcunningham/AngularJS-Learning): AngularJS 学习资源
 + [practical-ui-physics](https://github.com/desandro/practical-ui-physics): 各种前端物理效果的实现原理
 + [understandinges6](https://github.com/nzakas/understandinges6): 电子书： Understanding ES6
++ [frontend-stuff](https://github.com/moklick/frontend-stuff): 前端相关的各种资源, JS 内容居多
++ [frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks): 前端开发资源的集合, 内容极多
+
+###### React
+
++ [React 中文文档](http://reactjs.cn/react/docs/getting-started-zh-CN.html): React 中文文档
++ [Redux 英文文档](http://redux.js.org/docs/introduction/): Redux 英文文档, 比较详尽
++ [Redux 中文文档](http://cn.redux.js.org/index.html): Redux 中文文档, 比较详尽
 
 ###### IOS
 + [30min_guides](https://github.com/qinjx/30min_guides): 覃健祥的学习笔记，若干个几十分钟入门的文档
 + [The Swift Programming Language 中文版](http://numbbbbb.gitbooks.io/-the-swift-programming-language-/content/): The Swift Programming Language 中文版, 苹果官方教程的中文翻译
 + [cocoacontrols](https://www.cocoacontrols.com/): 包含各种 OSX 或者 IOS 的开源 UI 库或者 商业库
++ [iOS 学习资料整理](https://github.com/Aufree/trip-to-iOS): IOS 的各种学习资料整理，初学者必备
 
 ###### Android
 
@@ -779,6 +816,10 @@
 
 + [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang): beego 作者写的关于怎么使用 Go 语言开发 web 应用的书
 
+###### Bash
+
++ [bash-handbook](https://github.com/denysdovhan/bash-handbook): Bash 手册，教你如何学习 Bash
+
 ###### 接口
 
 + [http-api-design](https://github.com/interagent/http-api-design): 从 Heroku 接口总结出的，如何更好地设计 API 接口
@@ -787,6 +828,7 @@
 
 + [The-Art-Of-Programming-By-July](https://github.com/julycoding/The-Art-Of-Programming-By-July): 程序员编程艺术：面试和算法心得
 + [papers-we-love](https://github.com/papers-we-love/papers-we-love): 计算机科学学术论文的一个集合，内容丰富有深度
++ [Tensorflow 中文文档](https://github.com/jikexueyuanwiki/tensorflow-zh): 人工智能系统 Tensorflow 的中文文档
 
 #### 其他
 
@@ -799,6 +841,8 @@
 + [Wait but Why?](http://waitbutwhy.com/): 非常有意思的一个网站, 会有一些有趣的观点和文章
 + [ideas](https://github.com/samsquire/ideas): 有趣的想法, 更多是一个作者对于编程/软件/工具 的思考和整理
 + [Developing_iOS_8_Apps_With_Swift](https://github.com/X140Yu/Developing_iOS_8_Apps_With_Swift): 斯坦福大学公开课： 如何使用 Swift 开发 iOS8 应用
++ [Open Source Guide](https://github.com/github/open-source-guide): Github 出品，教你如何做开源项目
++ [Design Patterns for Humans](https://github.com/kamranahmedse/design-patterns-for-humans): 真正给人看的设计模式
 
 
 ## 科学上网
@@ -811,6 +855,7 @@
 + [Google-IPs](https://github.com/justjavac/Google-IPs): Google 全球 IP 地址库
 + [RevokeChinaCerts](https://github.com/chengr28/RevokeChinaCerts): 一次性删除所有 CNNIC 证书的工具
 + [lantern](https://github.com/getlantern/lantern): 新一代翻墙工具, 借助于P2P, 速度很快
++ [hosts](https://github.com/racaljk/hosts): 科学上网专用Hosts
 
 
 ## Git 相关
@@ -831,6 +876,10 @@
 加一张杀马特的照片
 + [github-awesome-autocomplete](https://github.com/algolia/github-awesome-autocomplete): Github 的浏览器插件, 用于辅助搜索, 更加人性化的搜索结果
 + [dotenv](https://github.com/bkeepers/dotenv): 用于配置本地环境, 可以为不同的文件夹设置不同的环境
++ [No more secrets](https://github.com/bartobri/no-more-secrets): 科幻电影中的解密效果
++ [chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation): 中国程序员容易发音错误的单词
++ [programmer-job-blacklist](https://github.com/shengxinjing/programmer-job-blacklist): 程序员找工作黑名单，换工作和当技术合伙人需谨慎啊
++ [movies-for-hackers](https://github.com/k4m4/movies-for-hackers): 黑客和科幻迷必看电影
 
 
 ## License
